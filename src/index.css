@@ -1,0 +1,232 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Service Card Styling */
+.card {
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Hover Effect */
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Image Styling */
+  .card img {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect for Image */
+  .card:hover img {
+    transform: scale(1.1);
+  }
+
+/* Styling for Our Services Heading */
+/* Center align Our Services */
+.section-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center; /* Ensures text is centered */
+    position: relative;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Green Highlight for "Our" */
+  .section-heading span {
+    color: #28a745; /* Green color */
+  }
+  
+  /* Underline Effect */
+  .section-heading::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 4px;
+    background: #28a745; /* Green underline */
+    margin: 8px auto 0; /* Centers underline */
+    border-radius: 2px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .section-heading:hover::after {
+    width: 100%;
+  }
+  
+.btn{
+    background-color: green;
+    color: white;
+}
+
+.reviews {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8fcf8; /* Light greenish background */
+  }
+  
+  .reviews .section-heading {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .reviews .section-heading span {
+    color: #27ae60; /* Green color for 'My' */
+  }
+  
+  .reviews p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .slide {
+    max-width: 600px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .slide img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #27ae60; /* Green border */
+    margin-bottom: 15px;
+  }
+  
+  .slide p {
+    font-size: 1rem;
+    color: #444;
+    font-style: italic;
+  }
+  
+  .slide span {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .slider-dots span {
+    width: 8px;
+    height: 8px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .slider-dots .active {
+    background-color: #27ae60;
+  }
+
+  /* Friends Section */
+.reviews {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .section-heading {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .section-heading span {
+    color: #27ae60; /* Green color */
+  }
+  
+  .friends-slider {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .slide {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .slide img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #27ae60;
+    margin-bottom: 15px;
+  }
+  
+  .slide p {
+    font-size: 1rem;
+    color: #444;
+    font-style: italic;
+  }
+  
+  .slide span {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .swiper-pagination-bullet {
+    background: #ccc !important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #27ae60 !important;
+  }
+  
+  .slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Set a max width for better centering */
+  }
+  
+  .slide img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #27ae60;
+    margin-bottom: 15px;
+    display: block;
+  }
